@@ -12,14 +12,14 @@
    <children>
       <BorderPane layoutY="-4.0" prefHeight="364.0" prefWidth="575.0" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-4.0">
          <bottom>
-            <AnchorPane prefHeight="68.0" prefWidth="600.0" style="-fx-background-color: orange;" BorderPane.alignment="CENTER">
+            <AnchorPane prefHeight="68.0" prefWidth="600.0" style="-fx-background-color: GREY;" BorderPane.alignment="CENTER">
                <children>
                   <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@imagenes/ccheart.png" />
                      </image>
                   </ImageView>
-                  <Button fx:id="cerrar" layoutX="446.0" layoutY="18.0" mnemonicParsing="false" onAction="#cerrarSegundaVentana" prefHeight="25.0" prefWidth="121.0" text="CERRAR PUCHI">
+                  <Button fx:id="cerrar" layoutX="475.0" layoutY="18.0" mnemonicParsing="false" onAction="#cerrarSegundaVentana" prefHeight="25.0" prefWidth="92.0" text="CERRAR">
                      <effect>
                         <InnerShadow />
                      </effect>
@@ -30,7 +30,7 @@
          <top>
             <ImageView fitHeight="186.0" fitWidth="600.0" pickOnBounds="true" BorderPane.alignment="CENTER">
                <image>
-                  <Image url="@imagenes/puchi.jpg" />
+                  <Image url="@imagenes/JavaFX.png" />
                </image>
                <effect>
                   <Reflection />

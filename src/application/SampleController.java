@@ -34,7 +34,7 @@ public class SampleController {
 	            sendStage.setTitle("Superheader");
 	            Scene scene = new Scene(page);
 	            sendStage.setScene(scene);
-	            Image image = new Image("puch.png");  
+	            Image image = new Image("batman.png");  
 		        scene.setCursor(new ImageCursor(image));
 	            sendStage.initStyle(StageStyle.UNDECORATED);
 	            sendStage.show();
