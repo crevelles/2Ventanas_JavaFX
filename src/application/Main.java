@@ -10,7 +10,7 @@ import javafx.scene.text.Font;
 import javafx.fxml.FXMLLoader;
 
 
-//Cristóbal Revelles
+//Cristóbal Revelles - Noviembre 2017
 
 public class Main extends Application {
 	@Override
