@@ -10,6 +10,8 @@ import javafx.scene.text.Font;
 import javafx.fxml.FXMLLoader;
 
 
+//Cristóbal Revelles
+
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
